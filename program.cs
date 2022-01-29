@@ -33,7 +33,7 @@ string[] Words = {"Hello", "2", "world", ":-)"};
 Console.WriteLine (" ");
 string[] WordsLong = new string [ThreeArray(Words)];
 FillArray(Words, WordsLong);
-Console.Write ("Заданный массив -> ");
+Console.Write ("Заданный массив ->");
 PrintArray(Words);
 Console.WriteLine();
 Console.Write ("Сформированный массив ->");
